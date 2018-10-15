@@ -224,6 +224,15 @@ a {
   transition: all 0.3s ease 0s;
 }
 
+.qrcode:hover {
+  background-image: url("https://github.com/rexeze/qrcode-with-django/raw/master/qrcode.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.qrcode-details:hover {
+  display: none;
+}
+
 /*Animation*/
 /* 
 .anim-typewriter {
